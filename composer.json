@@ -1,0 +1,15 @@
+{
+  "name": "wzhouhui/log-collect",
+  "description": "collect wzhouhui log.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "require": {
+    "php-amqplib/php-amqplib": "2.6.*"
+  },
+  "authors": [
+    {
+      "name": "Terry",
+      "email": "tkstorm@163.com"
+    }
+  ]
+}
