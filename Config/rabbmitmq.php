@@ -8,7 +8,11 @@
  */
 
 return [
-	'rabbitMQ' => [
-		'host' => 	
-	],
+	'rabbitmq' => [
+		'host' 	=> '10.40.2.31',
+		'port' 	=> '5672',
+		'user' 	=> 'clark',
+		'pass' 	=> '123456',
+		'vhost' => '/',
+	]
 ];

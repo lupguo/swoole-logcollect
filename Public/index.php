@@ -9,21 +9,7 @@
 
 define('ROOT_PATH', dirname(__DIR__));
 
-require ROOT_PATH.'/vendor/autoload.php';
+require ROOT_PATH. '/App/Bootstrap.php';
 
-Class App {
-
-	public function __construct()
-	{
-
-	}
-
-	//应用启动
-	public function start(){
-		var_dump('$argc:', $_SERVER['argc']);
-		var_dump('$argv:', $_SERVER['argv']);
-	}
-}
-
-$app = new App();
-$app->start();
+$bootstrap = new \App\Bootstrap();
+$bootstrap->boot();
